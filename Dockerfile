@@ -1,3 +1,6 @@
+# Log into Docker Hub before building
+# docker login -u muhdakmalothman0@gmail.com -p @Akmal220994
+
 # setup working directory
 FROM maven:3.5.3 AS build
 RUN mkdir /app
